@@ -7,11 +7,11 @@ namespace MathGame
         Random random = new Random();
         Stopwatch stopwatch = new Stopwatch();
 
-        int numberOne = 0;
-        int numberTwo = 0;
-        int result = 0;
-        int userAnswer = 0;
-        int difficultyRange = 0;
+        int numberOne;
+        int numberTwo;
+        int result;
+        int userAnswer;
+        int difficultyRange;
 
         public void Sum(Menu menu)
         {

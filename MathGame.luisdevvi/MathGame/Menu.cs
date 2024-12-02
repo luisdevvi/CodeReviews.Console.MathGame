@@ -4,8 +4,8 @@
     {
         Game game = new Game();
         public List<string> gameHistory = new List<string>();
-        int userOption = 0;
-        public int difficulty = 0;
+        int userOption;
+        public int difficulty;
 
         public void ShowMenu()
         {
